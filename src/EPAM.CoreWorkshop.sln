@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.ReportHel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.TestConsoleApp", "EPAM.CoreWorkshop.TestConsoleApp\EPAM.CoreWorkshop.TestConsoleApp.csproj", "{8F7F6CE6-D23B-48FC-99DD-366F335A55F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.NorthwindLib", "EPAM.CoreWorkshop.NorthwindLib\EPAM.CoreWorkshop.NorthwindLib.csproj", "{5BD366EF-E8A6-48E6-8804-75A882477F03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPAM.CoreWorkshop.NorthwindLib.Tests", "EPAM.CoreWorkshop.NorthwindLib.Tests\EPAM.CoreWorkshop.NorthwindLib.Tests.csproj", "{DDB2019A-EF24-4F15-80A2-4FA691FC456F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,29 @@ Global
 		{8F7F6CE6-D23B-48FC-99DD-366F335A55F0}.Release|x64.Build.0 = Release|Any CPU
 		{8F7F6CE6-D23B-48FC-99DD-366F335A55F0}.Release|x86.ActiveCfg = Release|Any CPU
 		{8F7F6CE6-D23B-48FC-99DD-366F335A55F0}.Release|x86.Build.0 = Release|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Debug|x64.Build.0 = Debug|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Debug|x86.Build.0 = Debug|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Release|x64.ActiveCfg = Release|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Release|x64.Build.0 = Release|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BD366EF-E8A6-48E6-8804-75A882477F03}.Release|x86.Build.0 = Release|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Debug|x64.Build.0 = Debug|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Debug|x86.Build.0 = Debug|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Release|x64.ActiveCfg = Release|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Release|x64.Build.0 = Release|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Release|x86.ActiveCfg = Release|Any CPU
+		{DDB2019A-EF24-4F15-80A2-4FA691FC456F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
