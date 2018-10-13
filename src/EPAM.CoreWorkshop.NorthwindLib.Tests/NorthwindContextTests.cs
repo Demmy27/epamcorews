@@ -40,7 +40,7 @@ namespace EPAM.CoreWorkshop.NorthwindLib.Tests
         public void GreateMySQLDbFromMigrations()
         {
             var optionsBuilder = new DbContextOptionsBuilder<NorthwindContext>();
-            optionsBuilder.UseMySql("Server=epam-corewsvm01.northeurope.cloudapp.azure.com;Database=Northwind;User=user;Password=123;Compress=true",
+            optionsBuilder.UseMySql("Server=epam-corewsvm26.northeurope.cloudapp.azure.com;Database=Northwind;User=user;Password=123;Compress=true",
                 opt =>
                 {
                     opt.CommandTimeout(200);
