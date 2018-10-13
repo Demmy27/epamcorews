@@ -4,15 +4,15 @@ using System.Threading;
 
 namespace EPAM.Core.ReportHelper.Tests
 {
-    [AssemblyInitialize]
-    public static void Init(TestContext context)
-    {
-        Thread.Sleep(30 * 1000);
-    }
-
     [TestClass]
     public class ReportNameHelperTests
     {
+        [AssemblyInitialize]
+        public static void Init(TestContext context)
+        {
+            Thread.Sleep(30 * 1000);
+        }
+
         [TestMethod]
         [DataRow("Hello: my world", '_', "Hello_ my world")]
         [DataRow("Hello my %world", '_', "Hello my %world")]
