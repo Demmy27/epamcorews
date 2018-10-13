@@ -1,8 +1,15 @@
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Threading;
 
 namespace EPAM.Core.ReportHelper.Tests
 {
+    [AssemblyInitialize]
+    public static void Init(TestContext context)
+    {
+        Thread.Sleep(30 * 1000);
+    }
+
     [TestClass]
     public class ReportNameHelperTests
     {
